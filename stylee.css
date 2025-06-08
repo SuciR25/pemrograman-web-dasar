@@ -1,4 +1,4 @@
-/* General Body Styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -8,7 +8,6 @@ body {
     color: #333;
 }
 
-/* Header Styles */
 header {
     background: #333;
     color: #fff;
@@ -25,7 +24,6 @@ header p {
     font-size: 1.2rem;
 }
 
-/* Main Content Area */
 main {
     padding: 20px;
     max-width: 960px;
@@ -34,7 +32,6 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Styling */
 section {
     margin-bottom: 30px;
     padding-bottom: 20px;
@@ -52,7 +49,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Biodata Section */
 .bio-item {
     margin-bottom: 10px;
 }
@@ -60,14 +56,14 @@ h2 {
 .bio-item .label {
     font-weight: bold;
     display: inline-block;
-    width: 120px; /* Adjust as needed for alignment */
+    width: 120px; 
 }
 
 .social-links {
     list-style: none;
     padding: 0;
-    display: inline-block; /* Aligns with label */
-    vertical-align: top; /* Adjust vertical alignment */
+    display: inline-block; 
+    vertical-align: top; 
     margin: 0;
 }
 
@@ -86,7 +82,7 @@ h2 {
     text-decoration: underline;
 }
 
-/* Skills Section */
+
 .skill-category {
     margin-bottom: 15px;
 }
@@ -106,11 +102,11 @@ h2 {
     padding: 8px 12px;
     margin: 5px 0;
     border-radius: 5px;
-    display: inline-block; /* For a tag-like appearance */
+    display: inline-block; 
     margin-right: 10px;
 }
 
-/* Portfolio Section */
+
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -150,7 +146,6 @@ h2 {
 }
 
 
-/* Basic Responsiveness */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
@@ -166,6 +161,6 @@ h2 {
     }
 
     .portfolio-grid {
-        grid-template-columns: 1fr; /* Stack on small screens */
+        grid-template-columns: 1fr; 
     }
 }
